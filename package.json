@@ -1,0 +1,29 @@
+{
+  "name": "sass",
+  "version": "2.0.0",
+  "scripts": {
+    "start": "01_Day_1/01_Sass_basics/01_First_steps_in_SCSS/node_modules/.bin/gulp",
+    "build": "01_Day_1/01_Sass_basics/01_First_steps_in_SCSS/node_modules/.bin/gulp sass"
+  },
+  "configuration": [
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    }
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1",
+    "sass": "^1.26.3"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}

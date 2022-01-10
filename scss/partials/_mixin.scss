@@ -1,0 +1,33 @@
+@import '_variables.scss';
+
+
+@mixin flex($alignItem, $justifyContent) {
+  display: flex;
+  align-items: $alignItem;
+  justify-content: $justifyContent;
+}
+
+
+@mixin mobile {
+  @media only screen and (max-width: $mobile-width) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (max-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin notebook {
+  @media only screen and (max-width: $notebook-width) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media only screen and (max-width: $laptop-width) {
+    @content;
+  }
+}
